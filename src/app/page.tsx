@@ -1,9 +1,18 @@
+"use client";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <h1 className="font-bold top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute text-4xl text-center">
-      Hey, my Name is Michael.
-    </h1>
+    <main className="z-10">
+      <h1>Helloski</h1>
+      <p>I am Michael and these are the things I am currently building:</p>
+      <>
+        <h2>tuto-heaven.com</h2>
+        <p>
+          A plattform where people can find awesome tutorials in order to
+          educate themself.
+        </p>
+      </>
+    </main>
   );
 }
