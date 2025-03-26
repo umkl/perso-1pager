@@ -10,6 +10,17 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: "1rem",
+      screens: {
+        sm: "100%",
+        md: "728px",
+        lg: "984px",
+        xl: "1240px",
+        "2xl": "1400px",
+      },
+    },
     extend: {
       colors: {
         background: "hsl(var(--background))",
