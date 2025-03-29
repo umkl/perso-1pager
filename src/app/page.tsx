@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="z-10 container mx-auto grid grid-rows-[200px_auto_auto_auto_1fr_100px] md:grid-rows-[200px_1fr_50px_100px_100px] grid-cols-3 md:grid-cols-6  h-full ">
+    <main className="z-10 px-10 md:px-0 container mx-auto grid grid-rows-[200px_auto_auto_auto_1fr_100px] md:grid-rows-[200px_1fr_50px_100px_100px] grid-cols-3 md:grid-cols-6  h-full ">
       <div className="col-start-1 col-span-3 md:col-span-6 row-start-2 md:mb-0">
         <Suspense fallback={<SkeletonLoader />}>
           <Headshot />
@@ -27,13 +27,13 @@ export default function Home() {
       <div className="row-start-3 md:row-start-4 col-start-1 col-span-3 flex flex-col justify-end h-full relative mb-4 md:mb-0">
         <h2 className="font-bold text-[1.5rem] mb-2">Social Media</h2>
         <p className="text-[1.3rem] hover:underline hover:italic cursor-pointer mb-2">
-          <b>Medium</b> - Bolzagg{" "}
+          <b>Medium</b> - Uravenzian{" "}
           <span className="md:hidden lg:inline">-&nbsp;</span>
           <br className="hidden md:block lg:hidden" />
           <span className="text-green-500">Last post 2 days ago</span>
         </p>
         <p className="text-[1.3rem] hover:underline hover:italic cursor-pointer">
-          <b>Youtube</b> - Bolzagg{" "}
+          <b>Youtube</b> - umkl71{" "}
           <span className="md:hidden lg:inline">-&nbsp;</span>
           <br className="hidden md:block lg:hidden" />
           <span className="text-green-400">Last video 5 days ago</span>
