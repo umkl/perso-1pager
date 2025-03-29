@@ -18,11 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className + " w-full"}>
+      <body className={inter.className + " w-full h-screen"}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           {children}
-          <Bg />
         </ThemeProvider>
+        <Bg />
       </body>
     </html>
   );
