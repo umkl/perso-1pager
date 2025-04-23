@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <main className="z-10 px-10 md:px-0 container mx-auto grid grid-rows-[200px_auto_auto_auto_1fr_100px] md:grid-rows-[200px_1fr_50px_100px_100px] grid-cols-3 md:grid-cols-6  h-full ">
       <div className="col-start-1 col-span-3 md:col-span-6 row-start-2 md:mb-0">
-        <Suspense fallback={<SkeletonLoader />}>
+        {/* <Suspense fallback={<SkeletonLoader />}>
           <Headshot />
-        </Suspense>
+        </Suspense> */}
         <h1 className="font-bold text-[2rem]">Hello</h1>
         <p className="text-[1.3rem] mb-4">
           I am Michael and these are the things I am currently building:
