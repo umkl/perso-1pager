@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className + " w-full h-screen"}>
+      <body className={`mx-auto my-6 max-w-[73.5rem] px-[5%] md:pr-[10%] md:pl-[0] ${inter.className}`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           {children}
         </ThemeProvider>
