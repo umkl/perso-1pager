@@ -17,13 +17,22 @@ body {
   }
 }
 
-.noise {
+/* .noise {
   background: url(https://grainy-gradients.vercel.app/noise.svg), #f0f0f0;
   background-blend-mode: multiply;
+} */
+
+/* 
+  Dark mode noise background:
+  - Uses a dark solid color (#1a1a1a) with the noise SVG overlay.
+  - 'screen' blend mode inverts the noise effect for dark backgrounds. Key trick: Inverts the noise effect for dark mode
+  - Opacity is set to 0.8 for a subtle effect.
+*/
+
+a {
+  @apply text-blue-600 visited:text-purple-600 hover:underline;
 }
 
-.dark .noise {
-  background: url(https://grainy-gradients.vercel.app/noise.svg), #1a1a1a; /* Dark mode solid color */
-  background-blend-mode: screen; /* Key trick: Inverts the noise effect for dark mode */
-  opacity: 0.8; /* Fine-tune for subtle noise */
+a:visited {
+  font-style: italic;
 }

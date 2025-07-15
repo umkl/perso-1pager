@@ -17,8 +17,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={`mx-auto my-6 max-w-[73.5rem] px-[5%] md:pr-[10%] md:pl-[0] ${inter.className}`}>
+    <html lang="en" suppressHydrationWarning className="hyphones-auto">
+      <body
+        className={`mx-auto mt-[20px] mb-[40px] max-w-[60em]   md:pl-[0] ${inter.className}`}
+      >
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           {children}
         </ThemeProvider>
