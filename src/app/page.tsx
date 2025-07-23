@@ -75,9 +75,9 @@ export default function Home() {
         Unix/MacOS, SSG(NextJS), React, Git, Vim
         <h2>Interests</h2>
         Web Development, MCP, Security (primarily Web) */}
-        <Link href="https://projects-jz0g8k0e6-bcnz.vercel.app">
-          https://projects-jz0g8k0e6-bcnz.vercel.app
-        </Link>
+        <Link href="/">michael-ungar.com</Link>
+        <br />
+
         <br />
         <Link href="https://the-evolution-challenge.vercel.app">
           https://the-evolution-challenge.vercel.app
@@ -86,6 +86,12 @@ export default function Home() {
         <Link href="https://aura-habits.vercel.app">
           https://aura-habits.vercel.app
         </Link>
+        <Link href="https://projects-jz0g8k0e6-bcnz.vercel.app">
+          https://projects-jz0g8k0e6-bcnz.vercel.app
+        </Link>
+        <Link href="/">mkael.me</Link>
+        <Link href="http://ungarmichael.at">ungarmichael.at</Link>
+        <Link href="http://waterbyte.club">waterbyte.club</Link>
       </section>
     </>
   );
