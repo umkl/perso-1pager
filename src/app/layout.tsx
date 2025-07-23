@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="hyphones-auto">
       <body
-        className={`mx-auto mt-[20px] mb-[40px] max-w-[60em]   md:pl-[0] ${inter.className}`}
+        className={`mx-auto mt-[20px] mb-[40px] max-w-[60em]  md:pr-[16em] md:pl-[0] ${inter.className}`}
       >
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           {children}
